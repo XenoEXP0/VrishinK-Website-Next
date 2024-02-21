@@ -77,7 +77,7 @@ const Home = (props) => {
         </header>
         <img
           alt="image"
-          src="/home%20page%20banner-min%20(1)-compressed-min%20(1)-800h.jpg"
+          src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           className="home-image"
         />
         <div className="home-container2">
@@ -90,8 +90,11 @@ const Home = (props) => {
               src="https://play.teleporthq.io/static/svg/default-img.svg"
               className="home-image1"
             />
-            <h2 className="home-text09">10 Weekend Getaways in The USA</h2>
-            <span className="home-text10">Learn more</span>
+            <h2 className="home-text09">
+              <span>XXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+              <br></br>
+            </h2>
+            <span className="home-text12">Learn more</span>
           </div>
           <div className="home-gallery-card1">
             <img
@@ -99,10 +102,11 @@ const Home = (props) => {
               src="https://play.teleporthq.io/static/svg/default-img.svg"
               className="home-image2"
             />
-            <h2 className="home-text11">
-              The Ultimate Guide To Starting A Blog
+            <h2 className="home-text13">
+              <span>XXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+              <br></br>
             </h2>
-            <span className="home-text12">
+            <span className="home-text16">
               <span>Learn More</span>
               <br></br>
               <br></br>
@@ -114,8 +118,11 @@ const Home = (props) => {
               src="https://play.teleporthq.io/static/svg/default-img.svg"
               className="home-image3"
             />
-            <h2 className="home-text16">Travel Bucket List</h2>
-            <span className="home-text17">Learn More</span>
+            <h2 className="home-text20">
+              <span>XXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+              <br></br>
+            </h2>
+            <span className="home-text23">Learn More</span>
           </div>
         </div>
       </div>
@@ -141,6 +148,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
+            background-color: #74d1fd;
             border-bottom-width: 4px;
           }
           .home-container1 {
@@ -273,7 +281,7 @@ const Home = (props) => {
           }
           .home-image {
             width: 100%;
-            height: 764px;
+            height: 756px;
             object-fit: cover;
           }
           .home-container2 {
@@ -296,7 +304,7 @@ const Home = (props) => {
           }
           .home-gallery-card {
             width: 692px;
-            height: 707px;
+            height: 703px;
             display: flex;
             align-items: center;
             border-color: var(--dl-color-gray-black);
@@ -316,7 +324,7 @@ const Home = (props) => {
             font-weight: 600;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text10 {
+          .home-text12 {
             color: var(--dl-color-gray-500);
             align-self: flex-start;
           }
@@ -333,19 +341,19 @@ const Home = (props) => {
           }
           .home-image2 {
             width: 100%;
-            height: 100%;
+            height: 632px;
             object-fit: cover;
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             border-right-width: 2px;
           }
-          .home-text11 {
+          .home-text13 {
             align-self: flex-start;
             margin-top: var(--dl-space-space-halfunit);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text12 {
+          .home-text16 {
             color: var(--dl-color-gray-500);
             align-self: flex-start;
           }
@@ -365,13 +373,13 @@ const Home = (props) => {
             height: 100%;
             object-fit: cover;
           }
-          .home-text16 {
+          .home-text20 {
             align-self: flex-start;
             margin-top: var(--dl-space-space-halfunit);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text17 {
+          .home-text23 {
             color: var(--dl-color-gray-500);
             align-self: flex-start;
           }

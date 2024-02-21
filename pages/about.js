@@ -95,6 +95,7 @@ const About = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
+            background-color: #74d1fd;
           }
           .about-container1 {
             flex: 0 0 auto;

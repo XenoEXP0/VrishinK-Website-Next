@@ -18,7 +18,7 @@ const Contact = (props) => {
             ></div>
           </div>
           <h1 className="contact-text">
-            <span className="contact-text1">Erica</span>
+            <span className="contact-text01">Erica</span>
             <span> Dome Of Journeys</span>
           </h1>
           <nav className="contact-links">
@@ -54,11 +54,11 @@ const Contact = (props) => {
                 </div>
               </div>
               <nav className="contact-links1">
-                <span className="contact-text3">About</span>
-                <span className="contact-text4">Features</span>
-                <span className="contact-text5">Pricing</span>
-                <span className="contact-text6">Team</span>
-                <span className="contact-text7">Blog</span>
+                <span className="contact-text03">About</span>
+                <span className="contact-text04">Features</span>
+                <span className="contact-text05">Pricing</span>
+                <span className="contact-text06">Team</span>
+                <span className="contact-text07">Blog</span>
               </nav>
               <div className="contact-buttons">
                 <button className="contact-login button">Login</button>
@@ -87,6 +87,66 @@ const Contact = (props) => {
             </div>
           </div>
         </header>
+        <img
+          alt="image"
+          src="https://play.teleporthq.io/static/svg/default-img.svg"
+          className="contact-image"
+        />
+        <div className="contact-container2">
+          <h1 className="contact-text08">MEET US Here</h1>
+          <span className="contact-text09">
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+            <span>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </span>
+            <br></br>
+          </span>
+        </div>
+        <div className="contact-container3">
+          <h1 className="contact-text24">Contact Here</h1>
+          <span className="contact-text25">
+            <span>XXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <br></br>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <br></br>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <br></br>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <br></br>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <br></br>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <br></br>
+          </span>
+        </div>
+        <img
+          alt="image"
+          src="https://cdn1.vectorstock.com/i/1000x1000/79/05/map-pin-icon-with-you-are-here-vector-30197905.jpg"
+          className="contact-image1"
+        />
       </div>
       <style jsx>
         {`
@@ -107,6 +167,7 @@ const Contact = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
+            background-color: #74d1fd;
           }
           .contact-container1 {
             flex: 0 0 auto;
@@ -197,19 +258,19 @@ const Contact = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .contact-text3 {
+          .contact-text03 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .contact-text4 {
+          .contact-text04 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .contact-text5 {
+          .contact-text05 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .contact-text6 {
+          .contact-text06 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .contact-text7 {
+          .contact-text07 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .contact-buttons {
@@ -236,6 +297,64 @@ const Contact = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
+          .contact-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+          }
+          .contact-container2 {
+            left: 474px;
+            width: 788px;
+            bottom: 9px;
+            height: 484px;
+            display: flex;
+            position: absolute;
+            align-items: flex-start;
+            border-color: var(--dl-color-gray-black);
+            border-width: 5px;
+          }
+          .contact-text08 {
+            top: 20px;
+            left: 43px;
+            position: absolute;
+            text-decoration: underline;
+          }
+          .contact-text09 {
+            top: 85px;
+            left: 31px;
+            position: absolute;
+          }
+          .contact-container3 {
+            right: 7px;
+            width: 647px;
+            bottom: 0px;
+            height: 490px;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 5px;
+            justify-content: flex-start;
+          }
+          .contact-text24 {
+            top: 20px;
+            left: 43px;
+            position: absolute;
+            text-decoration: underline;
+          }
+          .contact-text25 {
+            top: 67px;
+            left: 4px;
+            position: absolute;
+          }
+          .contact-image1 {
+            top: 506px;
+            left: -1px;
+            width: 472px;
+            height: 499px;
+            position: absolute;
+            object-fit: cover;
+          }
           @media (max-width: 1600px) {
             .contact-navbar-interactive {
               border-color: var(--dl-color-gray-black);
@@ -257,6 +376,13 @@ const Contact = (props) => {
             .contact-link4 {
               font-size: 28px;
             }
+            .contact-container3 {
+              width: 328px;
+            }
+            .contact-text25 {
+              top: 79px;
+              left: 30px;
+            }
           }
           @media (max-width: 1200px) {
             .contact-navbar-interactive {
@@ -273,7 +399,7 @@ const Contact = (props) => {
               font-size: 2.5em;
               font-family: AnandaBlackPersonalUse-Regular;
             }
-            .contact-text1 {
+            .contact-text01 {
               font-family: AnandaBlackPersonalUse-Regular;
             }
             .contact-link {
@@ -318,22 +444,22 @@ const Contact = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .contact-text3 {
+            .contact-text03 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .contact-text4 {
+            .contact-text04 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .contact-text5 {
+            .contact-text05 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .contact-text6 {
+            .contact-text06 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .contact-text7 {
+            .contact-text07 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }

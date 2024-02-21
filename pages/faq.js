@@ -15,7 +15,7 @@ const FAQ = (props) => {
             <div data-thq="thq-navbar-nav" className="faq-desktop-menu"></div>
           </div>
           <h1 className="faq-text">
-            <span className="faq-text1">Erica</span>
+            <span className="faq-text01">Erica</span>
             <span> Dome Of Journeys</span>
           </h1>
           <nav className="faq-links">
@@ -51,11 +51,11 @@ const FAQ = (props) => {
                 </div>
               </div>
               <nav className="faq-links1">
-                <span className="faq-text3">About</span>
-                <span className="faq-text4">Features</span>
-                <span className="faq-text5">Pricing</span>
-                <span className="faq-text6">Team</span>
-                <span className="faq-text7">Blog</span>
+                <span className="faq-text03">About</span>
+                <span className="faq-text04">Features</span>
+                <span className="faq-text05">Pricing</span>
+                <span className="faq-text06">Team</span>
+                <span className="faq-text07">Blog</span>
               </nav>
               <div className="faq-buttons">
                 <button className="faq-login button">Login</button>
@@ -75,6 +75,22 @@ const FAQ = (props) => {
             </div>
           </div>
         </header>
+        <img
+          alt="image"
+          src="https://play.teleporthq.io/static/svg/default-img.svg"
+          loading="eager"
+          className="faq-image"
+        />
+        <img
+          alt="pastedImage"
+          src="/external/pastedimage-2uj-200w.png"
+          className="faq-pasted-image"
+        />
+        <span className="faq-text08">XXQuestionsXX</span>
+        <span className="faq-text09">XXAnswersXXX</span>
+        <span className="faq-text10">Frequent Questions</span>
+        <h1 className="faq-text11">FAQ</h1>
+        <div className="faq-container2"></div>
       </div>
       <style jsx>
         {`
@@ -95,6 +111,7 @@ const FAQ = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
+            background-color: #74d1fd;
           }
           .faq-container1 {
             flex: 0 0 auto;
@@ -185,19 +202,19 @@ const FAQ = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .faq-text3 {
+          .faq-text03 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .faq-text4 {
+          .faq-text04 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .faq-text5 {
+          .faq-text05 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .faq-text6 {
+          .faq-text06 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .faq-text7 {
+          .faq-text07 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .faq-buttons {
@@ -223,6 +240,65 @@ const FAQ = (props) => {
           .faq-icon6 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
+          }
+          .faq-image {
+            width: 1895px;
+            height: 446px;
+            object-fit: cover;
+          }
+          .faq-pasted-image {
+            left: 930px;
+            width: 77px;
+            bottom: 2px;
+            height: 347px;
+            position: absolute;
+          }
+          .faq-text08 {
+            top: 686px;
+            left: 684px;
+            position: absolute;
+            font-size: 30px;
+            font-family: 'Verdana';
+            text-decoration: underline;
+          }
+          .faq-text09 {
+            top: 689px;
+            left: 1041px;
+            position: absolute;
+            font-size: 30px;
+            font-family: 'Verdana';
+            text-decoration: underline;
+          }
+          .faq-text10 {
+            top: 570px;
+            left: 686px;
+            position: absolute;
+            font-size: 80px;
+            font-family: 'Oswald';
+            text-decoration: underline;
+          }
+          .faq-text11 {
+            top: -18px;
+            left: 1437px;
+            width: 154px;
+            height: 118px;
+            position: absolute;
+            font-size: 8em;
+            font-family: 'Botanity';
+          }
+          .faq-container2 {
+            flex: 0 0 auto;
+            left: -1px;
+            width: 1865px;
+            bottom: 436px;
+            height: 0px;
+            display: flex;
+            position: absolute;
+            align-items: flex-start;
+            border-color: #000000;
+            border-style: solid;
+            border-width: 2px;
+            border-bottom-width: 3px;
           }
           @media (max-width: 1600px) {
             .faq-navbar-interactive {
@@ -261,7 +337,7 @@ const FAQ = (props) => {
               font-size: 2.5em;
               font-family: AnandaBlackPersonalUse-Regular;
             }
-            .faq-text1 {
+            .faq-text01 {
               font-family: AnandaBlackPersonalUse-Regular;
             }
             .faq-link {
@@ -306,22 +382,22 @@ const FAQ = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .faq-text3 {
+            .faq-text03 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .faq-text4 {
+            .faq-text04 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .faq-text5 {
+            .faq-text05 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .faq-text6 {
+            .faq-text06 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .faq-text7 {
+            .faq-text07 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }

@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import BlogPostCard41 from '../components/blog-post-card41'
+
 const Destinations = (props) => {
   return (
     <>
@@ -96,6 +98,20 @@ const Destinations = (props) => {
             </div>
           </div>
         </header>
+        <div className="destinations-blog">
+          <BlogPostCard41
+            label="Business &amp; Travel"
+            rootClassName="rootClassName1"
+          ></BlogPostCard41>
+          <div className="destinations-container2">
+            <BlogPostCard41
+              label="Nature"
+              rootClassName="rootClassName2"
+            ></BlogPostCard41>
+            <BlogPostCard41 rootClassName="rootClassName3"></BlogPostCard41>
+          </div>
+          <BlogPostCard41 rootClassName="rootClassName4"></BlogPostCard41>
+        </div>
       </div>
       <style jsx>
         {`
@@ -116,6 +132,7 @@ const Destinations = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
+            background-color: #74d1fd;
           }
           .destinations-container1 {
             flex: 0 0 auto;
@@ -245,6 +262,24 @@ const Destinations = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
+          .destinations-blog {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: center;
+            justify-content: space-between;
+          }
+          .destinations-container2 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-twounits);
+            margin-right: var(--dl-space-space-twounits);
+            flex-direction: column;
+            justify-content: flex-start;
+          }
           @media (max-width: 1600px) {
             .destinations-container {
               border-color: #00b0ff;
@@ -356,6 +391,16 @@ const Destinations = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
+            .destinations-blog {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              flex-direction: column;
+            }
+            .destinations-container2 {
+              flex: 0 0 auto;
+              margin-left: 0px;
+              margin-right: 0px;
+            }
           }
           @media (max-width: 479px) {
             .destinations-navbar-interactive {
@@ -363,6 +408,12 @@ const Destinations = (props) => {
             }
             .destinations-mobile-menu {
               padding: 16px;
+            }
+            .destinations-blog {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
           }
         `}
