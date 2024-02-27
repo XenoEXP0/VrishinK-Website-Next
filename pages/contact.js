@@ -422,6 +422,10 @@ const Contact = (props) => {
               font-size: 27px;
               font-family: Oxygen;
             }
+            .contact-container2 {
+              width: 792px;
+              height: 424px;
+            }
           }
           @media (max-width: 991px) {
             .contact-navbar-interactive {
