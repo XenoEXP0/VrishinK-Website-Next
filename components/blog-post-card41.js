@@ -10,7 +10,7 @@ const BlogPostCard41 = (props) => {
       >
         <img
           alt={props.imageAlt}
-          src={props.imageSrc}
+          src="https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Macau-1006756141-1440x823.jpg"
           className="blog-post-card41-image"
         />
         <div className="blog-post-card41-container">
@@ -88,10 +88,9 @@ const BlogPostCard41 = (props) => {
 BlogPostCard41.defaultProps = {
   label: '',
   rootClassName: '',
-  description:
-    'Lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  description: 'Macau World Trip',
   imageAlt: 'image',
-  date: 'JULY 24',
+  date: 'Feb 29',
   imageSrc:
     'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHZlbmljZXxlbnwwfHx8fDE2MjYyNzIyOTA&ixlib=rb-1.2.1&w=1000',
 }
